@@ -44,8 +44,8 @@ export default function Contact() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               {[
                 { icon: <Mail size={16} />, label: 'Email', value: 'kritika.singh1824@gmail.com', href: 'mailto:kritika.singh1824@gmail.com' },
-                { icon: <GitBranch size={16} />, label: 'GitHub', value: 'github.com/kritika-singh', href: 'https://github.com/kritika-singh' },
-                { icon: <ExternalLink size={16} />, label: 'LinkedIn', value: 'linkedin.com/in/kritika-singh', href: 'https://linkedin.com/in/kritika-singh' },
+                { icon: <GitBranch size={16} />, label: 'GitHub', value: 'github.com/Kritika-git', href: 'https://github.com/Kritika-git/' },
+                { icon: <ExternalLink size={16} />, label: 'LinkedIn', value: 'linkedin.com/in/kritika-singh-960a00215', href: 'https://www.linkedin.com/in/kritika-singh-960a00215/' },
               ].map(({ icon, label, value, href }) => (
                 <a
                   key={label}

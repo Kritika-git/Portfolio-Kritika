@@ -11,7 +11,7 @@ const projects = [
     description:
       'A full-stack MERN platform enabling students to discover accommodations, explore cities, and access essential services. Features a TF-IDF recommendation engine, Google Maps integration, and a secure connection request system.',
     stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Flask', 'Python', 'Google Maps API'],
-    github: 'https://github.com/kritika-singh',
+    github: 'https://github.com/Nausheen-ux/FinalYear_Project',
     accent: 'var(--accent)',
     highlights: [
       'Multi-criteria search with 5+ filters',
@@ -27,7 +27,7 @@ const projects = [
     description:
       'An AI-powered trip planning application that generates personalized travel itineraries using the Gemini API. Features Google OAuth 2.0, Firebase Firestore persistence, budget optimization, and responsive design.',
     stack: ['React.js', 'Tailwind CSS', 'Firebase Firestore', 'Gemini AI', 'OAuth 2.0'],
-    github: 'https://github.com/kritika-singh',
+    github: 'https://github.com/Kritika-git/ai-travel-plan',
     accent: 'var(--accent-3)',
     highlights: [
       'Gemini AI for personalized itineraries',

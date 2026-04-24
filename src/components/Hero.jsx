@@ -119,8 +119,8 @@ export default function Hero() {
 
         <div style={{ display: 'flex', gap: '16px' }}>
           {[
-            { icon: <GitBranch size={18} />, href: 'https://github.com/kritika-singh', label: 'GitHub' },
-            { icon: <ExternalLink size={18} />, href: 'https://linkedin.com/in/kritika-singh', label: 'LinkedIn' },
+            { icon: <GitBranch size={18} />, href: 'https://github.com/Kritika-git/', label: 'GitHub' },
+            { icon: <ExternalLink size={18} />, href: 'https://www.linkedin.com/in/kritika-singh-960a00215/', label: 'LinkedIn' },
             { icon: <Mail size={18} />, href: 'mailto:kritika.singh1824@gmail.com', label: 'Email' },
           ].map(({ icon, href, label }) => (
             <motion.a

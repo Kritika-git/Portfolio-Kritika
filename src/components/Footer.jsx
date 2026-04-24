@@ -15,8 +15,8 @@ export default function Footer() {
 
       <div style={{ display: 'flex', gap: '16px' }}>
         {[
-          { icon: <GitBranch size={16} />, href: 'https://github.com/kritika-singh' },
-          {icon: <ExternalLink size={16} />, href: 'https://linkedin.com/in/kritika-singh' },
+          { icon: <GitBranch size={16} />, href: 'https://github.com/Kritika-git/' },
+          {icon: <ExternalLink size={16} />, href: 'https://www.linkedin.com/in/kritika-singh-960a00215/' },
           { icon: <Mail size={16} />, href: 'mailto:kritika.singh1824@gmail.com' },
         ].map(({ icon, href }, i) => (
           <a
