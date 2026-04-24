@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { Menu, X } from 'lucide-react'
 
 const links = ['About', 'Stack', 'Projects', 'Experience', 'Education', 'Contact']
 
@@ -20,7 +21,7 @@ export default function Navbar() {
       transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
       style={{
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100,
-        padding: '0 40px',
+        padding: '0 clamp(20px, 4vw, 40px)',
         height: '70px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
         background: scrolled ? 'rgba(8,12,16,0.85)' : 'transparent',
@@ -71,6 +72,22 @@ export default function Navbar() {
           </motion.li>
         ))}
       </ul>
+
+      <button className="nav-hamburger" onClick={() => setMenuOpen(o => !o)} aria-label="Toggle menu">
+        {menuOpen ? <X size={22} /> : <Menu size={22} />}
+      </button>
+
+      <div className={`nav-mobile-menu${menuOpen ? ' open' : ''}`}>
+        {links.map(link => (
+          <a
+            key={link}
+            href={`#${link.toLowerCase()}`}
+            onClick={() => setMenuOpen(false)}
+          >
+            {link}
+          </a>
+        ))}
+      </div>
     </motion.nav>
   )
 }

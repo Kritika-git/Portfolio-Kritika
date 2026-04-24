@@ -30,7 +30,7 @@ export default function Contact() {
           <h2 className="section-title">Let's <em>connect</em></h2>
         </motion.div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '60px', alignItems: 'start' }}>
+        <div className="contact-grid">
           {/* Left info */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}

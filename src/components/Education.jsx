@@ -32,6 +32,7 @@ export default function Education() {
             transition: 'border-color 0.3s',
             maxWidth: '720px',
           }}
+          className="edu-card"
           onMouseEnter={e => e.currentTarget.style.borderColor = 'var(--border-hover)'}
           onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--border)'}
         >
@@ -43,7 +44,7 @@ export default function Education() {
             pointerEvents: 'none',
           }} />
 
-          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '24px' }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '24px' }} className="edu-inner">
             <div style={{
               width: '52px', height: '52px',
               background: 'var(--accent-glow)',

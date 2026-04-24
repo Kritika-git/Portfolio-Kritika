@@ -50,7 +50,7 @@ export default function TechStack() {
           <h2 className="section-title">Tools of the <em>trade</em></h2>
         </motion.div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px' }}>
+        <div className="techstack-grid">
           {categories.map((cat, ci) => (
             <motion.div
               key={cat.label}

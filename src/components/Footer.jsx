@@ -2,7 +2,7 @@ import { GitBranch, Mail, ExternalLink } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer style={{
+    <footer className="footer-wrap" style={{
       position: 'relative', zIndex: 2,
       padding: '40px',
       borderTop: '1px solid var(--border)',

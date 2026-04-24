@@ -11,7 +11,7 @@ export default function Hero() {
         justifyContent: 'center',
         position: 'relative',
         zIndex: 2,
-        padding: '120px 40px 80px',
+        padding: '120px 20px 80px',
         maxWidth: '1100px',
         margin: '0 auto',
         overflow: 'hidden',
@@ -157,6 +157,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
+        className="scroll-indicator"
         style={{
           position: 'absolute', bottom: '40px', left: '10px',
           display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px',

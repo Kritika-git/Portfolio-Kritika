@@ -20,7 +20,7 @@ export default function About() {
           </h2>
         </motion.div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'start' }}>
+        <div className="about-grid">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}

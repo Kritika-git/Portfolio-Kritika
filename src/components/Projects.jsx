@@ -155,7 +155,7 @@ export default function Projects() {
           <h2 className="section-title">Things I've <em>built</em></h2>
         </motion.div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '28px' }}>
+        <div className="projects-grid">
           {projects.map((project, i) => (
             <ProjectCard key={project.id} project={project} index={i} inView={inView} />
           ))}
